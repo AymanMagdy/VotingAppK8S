@@ -15,8 +15,8 @@ spec:
     metadata:
       name: result-pod
       labels:
-        name: redis-app-pod
-        app: demo-voting-app
+        name: result-app-pod
+        app: demo-voting-app 
     spec:
       containers:
         - name: result-container
